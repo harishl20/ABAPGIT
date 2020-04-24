@@ -4,6 +4,6 @@
 *&
 *&---------------------------------------------------------------------*
 REPORT yrr_test_program.
-*PARAMETERS: p_enter TYPE char10.
+PARAMETERS: p_enter TYPE char10.
 START-OF-SELECTION.
-WRITE: 'Hello'.
+WRITE: p_enter.
