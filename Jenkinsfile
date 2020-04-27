@@ -1,8 +1,8 @@
 import jenkins.model.*
 
-def GITURL = 'https://github.com/pacroy/abap-rest-api.git'
+def GITURL = 'https://github.com/pacroy/abap-rest-api'
 def BRANCH = 'master'
-def PIPELINE_GITURL = 'https://github.com/pacroy/abap-ci-postman.git'
+def PIPELINE_GITURL = 'https://github.com/pacroy/abap-ci-postman'
 def PACKAGE = '''$REST_SIMPLE'''
 def COVERAGE = 80
 def VARIANT = "DEFAULT"
